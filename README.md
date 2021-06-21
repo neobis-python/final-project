@@ -2,7 +2,7 @@ Hey, let's build a simple E-SHOP API. We will start with a simple MVP.
 
 ## **Functional Requirements**
 
-- Users must be authorized. There will be two roles: admin and clients.
+- Users must be authorized. There will be two roles: suppliers (admins) and clients.
 - Create CRUD API to manage products. The product will have the next fields:
     1. title
     2. description
@@ -22,7 +22,7 @@ Hey, let's build a simple E-SHOP API. We will start with a simple MVP.
 - In the purchase you need to calculate the final cost.
 
 ## **Technical Requirements**
-
+- Important! There is no need to make a Django admin interface. We will not count it as extra feature. But you can use it if you need to.
 - You need to submit ER diagram before you will start to code. The mentor should approve it.
 - REST API should be Django and Django REST Framework based
 - Implement authorization with [JSON Web Tokens](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/). Authorization must be implemented via email.
