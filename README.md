@@ -41,6 +41,11 @@ Hey, let's build a simple E-SHOP API. We will start with a simple MVP.
 - The code should be clean, passing linter checks and simple to understand. Code quality matters a lot
 - Deploy API for testing to [Heroku](https://www.heroku.com/). Add deployment link to the README.
 
+## Bonus Points
+- You can implement promocodes. It should work like the following:
+
+If person have a promocode, this person can indicate it with the rest of the request. After promocode submission you must recalculate the final price :)
+
 ## **Conditions**
 
 - Skills to write clean business logic and apply best practices are important
@@ -49,5 +54,7 @@ Hey, let's build a simple E-SHOP API. We will start with a simple MVP.
 If you have any questions about challenge details, ask for more information, it's appreciated.
 
 Have a good luck!
+
+
 
 *PS: This tech specification does not limit your imagination. If somehow you'll finish the project early, you can develop some new features that will be graded separately.*
